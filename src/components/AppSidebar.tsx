@@ -24,7 +24,7 @@ import {
 } from "@/components/ui/sidebar";
 
 const mainItems = [
-  { title: "Dashboard", url: "/", icon: Home },
+  { title: "Dashboard", url: "/dashboard", icon: Home },
   { title: "Yeni Talep", url: "/request", icon: FileText },
   { title: "Excel Yükle", url: "/upload", icon: Upload },
   { title: "Teklif Karşılaştır", url: "/quotes", icon: Scale },
