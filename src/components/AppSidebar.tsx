@@ -10,6 +10,7 @@ import {
   BarChart3,
   Settings,
   HelpCircle,
+  DollarSign,
 } from "lucide-react";
 import {
   Sidebar,
@@ -31,6 +32,7 @@ const mainItems = [
   { title: "Onaylar", url: "/approvals", icon: CheckSquare },
   { title: "Sipariş Takibi", url: "/tracking", icon: TruckIcon },
   { title: "Raporlar", url: "/reports", icon: BarChart3 },
+  { title: "Financials", url: "/financials", icon: DollarSign },
 ];
 
 const systemItems = [

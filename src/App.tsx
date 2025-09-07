@@ -11,6 +11,7 @@ import QuoteComparison from "./pages/QuoteComparison";
 import Approvals from "./pages/Approvals";
 import OrderTracking from "./pages/OrderTracking";
 import Reports from "./pages/Reports";
+import Financials from "./pages/Financials";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,6 +31,7 @@ const App = () => (
           <Route path="/approvals" element={<Approvals />} />
           <Route path="/tracking" element={<OrderTracking />} />
           <Route path="/reports" element={<Reports />} />
+          <Route path="/financials" element={<Financials />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
